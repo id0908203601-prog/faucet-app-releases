@@ -71,6 +71,7 @@ def main():
                     {
                         "name": it.get("faucet_name"),
                         "url": it.get("faucet_url"),
+                        "logo": it.get("logo_url") or "",
                         "health": it.get("health", 0),
                         "ratings": float(it.get("ratings") or 0),
                         "users_paid": it.get("total_users_paid", 0),
