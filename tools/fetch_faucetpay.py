@@ -14,7 +14,7 @@ COINS = [
     "btc", "eth", "usdt", "xrp", "bnb", "sol", "usdc", "trx", "doge", "ada", "bch", "xmr",
     "xlm", "ton", "ltc", "zec", "dash", "pol", "pepe", "trump", "dgb", "fey", "flt",
 ]
-PER_COIN = 40
+PER_COIN = 1000
 OUT = "data/stats.json"
 UA = (
     "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -44,6 +44,7 @@ def call(coin, page):
 def main():
     faucets = {}
     by_coin = {}
+    listed = {}
     errors = 0
     for coin in COINS:
         ids = []
@@ -56,6 +57,8 @@ def main():
                 errors += 1
                 break
             items = j.get("list") or []
+            if page == 1:
+                listed[coin] = int(j.get("total_pages") or 1)
             stop = False
             for it in items:
                 usd = float(it.get("week_amount_paid_usd") or 0)
@@ -95,6 +98,7 @@ def main():
         "generated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "faucets": faucets,
         "by_coin": by_coin,
+        "listed_pages": listed,
     }
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(",", ":"))
