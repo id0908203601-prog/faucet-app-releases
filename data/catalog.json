@@ -4,7 +4,7 @@
     "claimUrl": "https://firefaucet.win/faucet/",
     "intervalMin": 30,
     "taskPaths": [
-      "https://firefaucet.win/ptc/"
+      "/ptc"
     ]
   },
   "2727": {
