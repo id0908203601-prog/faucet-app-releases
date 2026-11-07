@@ -1,8 +1,18 @@
 {
   "529": {
-    "ref": "",
-    "intervalMin": 60,
-    "claimButtonSelector": ""
+    "ref": "https://firefaucet.win/ref/leehieu30",
+    "claimUrl": "https://firefaucet.win/faucet/",
+    "intervalMin": 30,
+    "taskPaths": [
+      "https://firefaucet.win/ptc/"
+    ]
+  },
+  "2727": {
+    "hidden": true
+  },
+  "3448": {
+    "ref": "https://viefaucet.com?r=684cff4569e6ff259a5c006c",
+    "claimUrl": "https://viefaucet.com/app/faucet"
   },
   "185491": {
     "ref": "https://limefaucet.com/ref/gOuWVQCJ74b149z5",
@@ -22,12 +32,5 @@
       "/offerwall",
       "/videos"
     ]
-  },
-  "2727": {
-    "hidden": true
-  },
-  "3448": {
-    "ref": "https://viefaucet.com?r=684cff4569e6ff259a5c006c",
-    "claimUrl": "https://viefaucet.com/app/faucet"
   }
 }
