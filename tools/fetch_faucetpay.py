@@ -45,6 +45,7 @@ def main():
     faucets = {}
     by_coin = {}
     listed = {}
+    sample = []
     errors = 0
     for coin in COINS:
         ids = []
@@ -57,6 +58,8 @@ def main():
                 errors += 1
                 break
             items = j.get("list") or []
+            if page == 1 and items and len(sample) < 3:
+                sample.append({"top_level_keys": [k for k in j.keys()], "item": items[0]})
             if page == 1:
                 listed[coin] = int(j.get("total_pages") or 1)
             stop = False
@@ -103,6 +106,8 @@ def main():
     }
     with open(OUT, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, separators=(",", ":"))
+    with open("data/sample_items.json", "w", encoding="utf-8") as fh:
+        json.dump(sample, fh, ensure_ascii=False, indent=1)
     print(f"Đã ghi {OUT}: {len(faucets)} faucet, {errors} lỗi")
     return 0
 
