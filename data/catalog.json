@@ -5,6 +5,20 @@
     "intervalMin": 30,
     "taskPaths": [
       "/ptc"
+    ],
+    "events": [
+      {
+        "text": "Happy Hour",
+        "days": [
+          6,
+          0
+        ],
+        "hoursUtc": [
+          2,
+          14
+        ],
+        "durationMin": 60
+      }
     ]
   },
   "2727": {
