@@ -8,5 +8,18 @@
     "ref": "",
     "intervalMin": 2,
     "claimButtonSelector": ""
+  },
+  "_default": {
+    "taskPaths": [
+      "/ptc",
+      "/youtube",
+      "/yt",
+      "/ads",
+      "/surf",
+      "/tasks",
+      "/task",
+      "/offerwall",
+      "/videos"
+    ]
   }
 }
