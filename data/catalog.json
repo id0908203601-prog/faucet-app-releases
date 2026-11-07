@@ -5,9 +5,10 @@
     "claimButtonSelector": ""
   },
   "185491": {
-    "ref": "",
+    "ref": "https://limefaucet.com/ref/gOuWVQCJ74b149z5",
     "intervalMin": 2,
-    "claimButtonSelector": ""
+    "claimButtonSelector": "",
+    "claimUrl": "https://limefaucet.com/faucet"
   },
   "_default": {
     "taskPaths": [
