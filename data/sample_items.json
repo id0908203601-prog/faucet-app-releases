@@ -1,0 +1,80 @@
+[
+ {
+  "top_level_keys": [
+   "ok",
+   "list",
+   "total_pages",
+   "current_page"
+  ],
+  "item": {
+   "id": 83478,
+   "faucet_name": "Yescoiner",
+   "faucet_url": "https://yescoiner.com/",
+   "week_amount_paid": "0.00965577",
+   "week_amount_paid_usd": "728.55493155",
+   "total_paid_today": "0.00000000",
+   "total_users_paid": 0,
+   "ratings": "4.05",
+   "health": 8,
+   "creation_date": 1656191928,
+   "logo_url": null,
+   "verified": 0,
+   "is_hosted": 0,
+   "active_users": 0,
+   "has_favourited": false,
+   "has_rated": false
+  }
+ },
+ {
+  "top_level_keys": [
+   "ok",
+   "list",
+   "total_pages",
+   "current_page"
+  ],
+  "item": {
+   "id": 529,
+   "faucet_name": "Fire Faucet",
+   "faucet_url": "https://firefaucet.win/?s=faucetpay",
+   "week_amount_paid": "0.01009447",
+   "week_amount_paid_usd": "22.61135767",
+   "total_paid_today": "16.02490980",
+   "total_users_paid": 2,
+   "ratings": "4.82",
+   "health": 89,
+   "creation_date": 1576082143,
+   "logo_url": "https://cdn.faucetpay.io/avatars/a39a4ecc5d07253e72fbc5effe561b89.webp?v=1787752405",
+   "verified": 0,
+   "is_hosted": 0,
+   "active_users": 0,
+   "has_favourited": false,
+   "has_rated": false
+  }
+ },
+ {
+  "top_level_keys": [
+   "ok",
+   "list",
+   "total_pages",
+   "current_page"
+  ],
+  "item": {
+   "id": 2727,
+   "faucet_name": "adBTC.top",
+   "faucet_url": "https://adbtc.top",
+   "week_amount_paid": "285.87000000",
+   "week_amount_paid_usd": "285.58860127",
+   "total_paid_today": "0.89919538",
+   "total_users_paid": 27,
+   "ratings": "4.90",
+   "health": 8,
+   "creation_date": 1579710609,
+   "logo_url": null,
+   "verified": 0,
+   "is_hosted": 0,
+   "active_users": 6,
+   "has_favourited": false,
+   "has_rated": false
+  }
+ }
+]
