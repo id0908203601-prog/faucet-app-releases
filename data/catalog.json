@@ -12,7 +12,8 @@
   },
   "3448": {
     "ref": "https://viefaucet.com?r=684cff4569e6ff259a5c006c",
-    "claimUrl": "https://viefaucet.com/app/faucet"
+    "claimUrl": "https://viefaucet.com/app/faucet",
+    "intervalMin": 30
   },
   "185491": {
     "ref": "https://limefaucet.com/ref/gOuWVQCJ74b149z5",
