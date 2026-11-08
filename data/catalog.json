@@ -47,6 +47,9 @@
     "claimButtonSelector": "",
     "claimUrl": "https://limefaucet.com/faucet"
   },
+  "191114": {
+    "hidden": true
+  },
   "_default": {
     "taskPaths": [
       "/ptc",
