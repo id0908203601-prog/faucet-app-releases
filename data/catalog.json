@@ -190,6 +190,9 @@
   "25008": {
     "hidden": true
   },
+  "25009": {
+    "intervalMin": 10
+  },
   "25291": {
     "hidden": true
   },
