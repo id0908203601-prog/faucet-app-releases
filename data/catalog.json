@@ -1,4 +1,9 @@
 {
+  "199": {
+    "ref": "https://bigbtc.win/?id=52626527",
+    "claimUrl": "https://bigbtc.win/faucet",
+    "intervalMin": 10
+  },
   "369": {
     "hidden": true
   },
