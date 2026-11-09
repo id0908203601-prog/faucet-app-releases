@@ -34,7 +34,10 @@
   },
   "758": {
     "ref": "https://tencrypto.site/promo/8a03fbcb",
-    "claimUrl": "https://tencrypto.site/drop"
+    "claimUrl": "https://tencrypto.site/drop",
+    "taskPaths": [
+      "/shortlinks"
+    ]
   },
   "891": {
     "hidden": true
