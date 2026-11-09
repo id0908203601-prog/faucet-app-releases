@@ -53,7 +53,10 @@
   "116027": {
     "ref": "https://playnxc.com/?ref=7EF028E2",
     "claimUrl": "https://playnxc.com/dashboard#faucet",
-    "intervalMin": 2
+    "intervalMin": 2,
+    "taskPaths": [
+      "/ptc"
+    ]
   },
   "117709": {
     "hidden": true
