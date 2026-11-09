@@ -1,7 +1,4 @@
 {
-  "199": {
-    "hidden": true
-  },
   "369": {
     "hidden": true
   },
@@ -539,8 +536,7 @@
     "intervalMin": 2,
     "taskPaths": [
       "/ptc"
-    ],
-    "multiCoin": true
+    ]
   },
   "116480": {
     "hidden": true
